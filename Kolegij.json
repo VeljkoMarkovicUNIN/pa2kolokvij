@@ -1,0 +1,19 @@
+{
+    "kolegij": [
+{"naziv": "Programski alati 2",
+ "semestar": "3",
+ "ects": "4",
+ "predavanja": "Vladimir",
+ "vjezbe": "Dražen"},
+{"naziv": "Vizualna kultura",
+ "semestar": "3",
+ "ects": "4",
+ "predavanja": "Robert",
+ "vjezbe": "asistentica1"},
+ {"naziv": "Prezentacija informacija",
+ "semestar": "3",
+ "ects": "3",
+ "predavanja": "Robert",
+ "vjezbe": "Robert"}
+]
+}

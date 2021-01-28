@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+link githuba u slucaju da nisam nesto dobro spremio:
+https://github.com/VeljkoMarkovicUNIN/pa2kolokvij
+-->
+<html>
+    <head>
+        <title>Kolokvij 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="formati.css" rel="stylesheet" type="text/css" >
+        <script type="text/javascript" src="skripte.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div><p>Veljko Marković</p></div>
+            <div class="meni">
+		<div class="izbornik"><button onclick="cvenkf()">Čvenk</button></div>
+		<div class="izbornik"><button onclick="okrenif()">Okreni</button></div>
+		<div class="izbornik"><button onclick="skalirajf()">Skaliraj</button></div>
+            </div>
+        </div>
+        
+        <div id="cvenk_dio"><h2>Cvenk</h2></div>
+        
+        <div id="okreni_dio"><h2>Okreni</h2>
+        <img src="logo.png" alt="UNIN" id="slika" onclick="zrcali()">
+        </div>
+        <div id="skaliraj_dio"><h2>Skaliraj</h2>
+        <input type="range" min='0' max='10' value='1' name="txtNum" onchange="slajder()">
+        </div>
+    </body>
+    <footer >
+        <p id="ime">Veljko Marković</p>
+        <p id="datum" onload="datum()">Datum</p>
+        <p id="vreme" onload="vreme()">vreme</p>
+    </footer>
+</html>
